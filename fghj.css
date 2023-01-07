@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.butn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    text-decoration: none;
+}
+
+.header {
+    
+    background-image:url(media/images/banner/banner1.png) ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: bottom right , bottom left;
+}
+
+/* header & nav */
+nav {
+    display: flex;
+    justify-content:right ;
+    padding: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 40px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* banner */
+
+.intro{
+   display: left bottom;
+}
+
+.banner {
+    display: flex;
+    margin: 50px 0px 0px;
+    padding: 150px;
+
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 50px;
+ position: bottom left;
+}
+
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-align: left;
+
+}
+
+/* main-section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
+/* about  */
+.about {
+   background-color: rgba(88, 253, 143, 0.801);
+    border-radius: 10px;
+    padding: 40px 150px;
+  align-items: center;
+   display: flex ;
+   background-image:url(media/graphic-removebg-preview.png) ;
+   background-repeat: no-repeat;
+   background-position: left ;
+   background-size: 100%;
+   
+    
+}
+
+.jafor{
+    position: left;
+    padding-right: 20px;
+    padding-right: 0px;
+   
+}
+
+.jafra{
+background-color: rgba(255, 210, 151, 0.725);
+
+border-radius: 80%;
+padding: 70px;
+
+}
+.section-title {
+   text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-info-container {
+
+ text-align: center ;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+   
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* my kam kaj */
+.what-i-do{
+background-color: rgba(255, 217, 1, 0.267);
+padding: 10px 60px 40px;
+border-radius: 45px 5px;
+}
+.section-title{
+    
+    padding-top: 20px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 40px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+
+.paku{
+margin-bottom: 2%;
+border-bottom: 1px;
+}
+
+.picu{
+    background-image:url(media/images/watch.png) , url(media/images/gradient1.png);
+    background-repeat: no-repeat;
+   height: 700px;
+   width: 1200px;
+
+   font-display:left ;
+  font-weight: bolder;
+background-blend-mode:overlay;
+  
+}
+
+.pucu{
+    margin-left: 80px;
+    text-align: left;
+ padding-top:  50px;
+ color: #FFFFFF;
+
+}
+.pacu{
+  font-display:left ;
+  color: rgb(251, 251, 251);
+  background-color: #0055ff;
+  padding: 10px 25px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+/* education */
+
+.resume{
+background-color: rgb(181, 249, 144);
+padding: 10px 100px 30px;
+border-style: double;
+border-radius: 30px;
+
+}
+
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+    background-color: rgb(221, 254, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.onno-but{
+    color: #FFFFFF;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 40px;
+    background-color: rgb(12, 101, 3);
+    border-radius: 15px 655px;
+}
+
+
+/* contact */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #000000;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+    color: white;
+}
+
+.contact .section-description{
+text-align:left ;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+}
